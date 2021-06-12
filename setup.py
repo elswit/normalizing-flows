@@ -26,7 +26,7 @@ setup(name='normalizing_flows',
       license='MIT',
       install_requires=install_requires,
       extras_require=extras_require,
-      packages=['normalizing_flows'],
+      packages=setuptools.find_packages(),
       long_description=(open('README.md').read() if os.path.exists('README.md')
                         else ''),
       zip_safe=False)
